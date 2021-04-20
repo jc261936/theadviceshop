@@ -13,6 +13,7 @@ include("inc_nav.php"); ?>
 <?php  
 if (isset($_REQUEST['name'])) {
     echo "<h2>Thank you ". $_REQUEST['name']."</h2>";
+    echo "<h2>You have Chosen: ".strtoupper($_REQUEST['gender'])." as your gender.</h2>";
 }
 else {
     echo "<h2>Please subscribe</h2>";
